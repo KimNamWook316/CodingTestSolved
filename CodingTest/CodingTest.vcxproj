@@ -24,7 +24,7 @@
     <ClCompile Include="Programmers\Level2\Two_Queue.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="README.md" />
+    <None Include="..\README.md" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
