@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Programmers">
+      <UniqueIdentifier>{7efcbdc2-0429-45f2-af57-fd75ea1a2257}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Programmers\Level2">
+      <UniqueIdentifier>{5b292210-004b-4e5a-9a29-55d92347f885}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Programmers\Level2\K_Notation_Prime_Number.cpp">
+      <Filter>Programmers\Level2</Filter>
+    </ClCompile>
+    <ClCompile Include="Programmers\Level2\Two_Queue.cpp">
+      <Filter>Programmers\Level2</Filter>
+    </ClCompile>
+    <ClCompile Include="Programmers\Level2\Parking_Fee.cpp">
+      <Filter>Programmers\Level2</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
