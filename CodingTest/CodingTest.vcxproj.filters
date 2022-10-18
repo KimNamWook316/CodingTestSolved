@@ -7,16 +7,19 @@
     <Filter Include="Programmers\Level2">
       <UniqueIdentifier>{5b292210-004b-4e5a-9a29-55d92347f885}</UniqueIdentifier>
     </Filter>
+    <Filter Include="BOJ">
+      <UniqueIdentifier>{d2d49d14-1276-48f5-a27d-fc5974489319}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BOJ\Silver">
+      <UniqueIdentifier>{c70be136-233b-45fc-be72-126b48f9dc4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BOJ\Bronze">
+      <UniqueIdentifier>{7f3b8775-d90f-4fd4-a7ad-8d086490ab65}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Programmers\Level2\K_Notation_Prime_Number.cpp">
-      <Filter>Programmers\Level2</Filter>
-    </ClCompile>
-    <ClCompile Include="Programmers\Level2\Two_Queue.cpp">
-      <Filter>Programmers\Level2</Filter>
-    </ClCompile>
-    <ClCompile Include="Programmers\Level2\Parking_Fee.cpp">
-      <Filter>Programmers\Level2</Filter>
+    <ClCompile Include="BOJ\1712.cpp">
+      <Filter>BOJ\Bronze</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

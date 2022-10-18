@@ -19,9 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Programmers\Level2\K_Notation_Prime_Number.cpp" />
-    <ClCompile Include="Programmers\Level2\Parking_Fee.cpp" />
-    <ClCompile Include="Programmers\Level2\Two_Queue.cpp" />
+    <ClCompile Include="BOJ\1712.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\README.md" />
