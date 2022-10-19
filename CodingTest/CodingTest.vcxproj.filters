@@ -21,6 +21,24 @@
     <ClCompile Include="BOJ\1712.cpp">
       <Filter>BOJ\Bronze</Filter>
     </ClCompile>
+    <ClCompile Include="BOJ\2941.cpp">
+      <Filter>BOJ\Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ\1316.cpp">
+      <Filter>BOJ\Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="Programmers\Level2\Two_Queue.cpp">
+      <Filter>Programmers\Level2</Filter>
+    </ClCompile>
+    <ClCompile Include="Programmers\Level2\K_Notation_Prime_Number.cpp">
+      <Filter>Programmers\Level2</Filter>
+    </ClCompile>
+    <ClCompile Include="Programmers\Level2\Parking_Fee.cpp">
+      <Filter>Programmers\Level2</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ\2292.cpp">
+      <Filter>BOJ\Bronze</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\README.md" />
