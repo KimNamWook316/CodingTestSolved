@@ -16,6 +16,9 @@
     <Filter Include="BOJ\Bronze">
       <UniqueIdentifier>{7f3b8775-d90f-4fd4-a7ad-8d086490ab65}</UniqueIdentifier>
     </Filter>
+    <Filter Include="BOJ\Gold">
+      <UniqueIdentifier>{bc260f41-d008-4198-995d-8dac49bc0a1d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BOJ\1712.cpp">
@@ -47,6 +50,9 @@
     </ClCompile>
     <ClCompile Include="BOJ\10989.cpp">
       <Filter>BOJ\Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ\16120.cpp">
+      <Filter>BOJ\Gold</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
