@@ -19,6 +19,12 @@
     <Filter Include="BOJ\Gold">
       <UniqueIdentifier>{bc260f41-d008-4198-995d-8dac49bc0a1d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="이코테">
+      <UniqueIdentifier>{32581af1-8595-4947-8ce3-c9c629c1beca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="이코테\01. Greedy">
+      <UniqueIdentifier>{dc9ce65a-59a7-4273-b282-58d75e44cc23}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BOJ\1712.cpp">
@@ -62,6 +68,15 @@
     </ClCompile>
     <ClCompile Include="2447.cpp">
       <Filter>BOJ\Silver</Filter>
+    </ClCompile>
+    <ClCompile Include="3_2.cpp">
+      <Filter>이코테\01. Greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="3_3.cpp">
+      <Filter>이코테\01. Greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="3_4.cpp">
+      <Filter>이코테\01. Greedy</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
