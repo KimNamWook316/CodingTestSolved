@@ -25,6 +25,12 @@
     <Filter Include="이코테\01. Greedy">
       <UniqueIdentifier>{dc9ce65a-59a7-4273-b282-58d75e44cc23}</UniqueIdentifier>
     </Filter>
+    <Filter Include="이코테\02. Implementation">
+      <UniqueIdentifier>{5b132a46-93c7-461c-8514-cb8f8e09b971}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="이코테\03. DFS/BFS">
+      <UniqueIdentifier>{6863ee5c-e788-47ec-8e60-900221f5f46a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BOJ\1712.cpp">
@@ -69,14 +75,26 @@
     <ClCompile Include="2447.cpp">
       <Filter>BOJ\Silver</Filter>
     </ClCompile>
-    <ClCompile Include="3_2.cpp">
+    <ClCompile Include="ECT\3_4.cpp">
       <Filter>이코테\01. Greedy</Filter>
     </ClCompile>
-    <ClCompile Include="3_3.cpp">
+    <ClCompile Include="ECT\3_2.cpp">
       <Filter>이코테\01. Greedy</Filter>
     </ClCompile>
-    <ClCompile Include="3_4.cpp">
+    <ClCompile Include="ECT\3_3.cpp">
       <Filter>이코테\01. Greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="ECT\4_2.cpp">
+      <Filter>이코테\02. Implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="ECT\4_3.cpp">
+      <Filter>이코테\02. Implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="ECT\5_3.cpp">
+      <Filter>이코테\03. DFS/BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="ECT\5_4.cpp">
+      <Filter>이코테\03. DFS/BFS</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
