@@ -96,6 +96,9 @@
     <ClCompile Include="ECT\5_4.cpp">
       <Filter>이코테\03. DFS/BFS</Filter>
     </ClCompile>
+    <ClCompile Include="BOJ\2606.cpp">
+      <Filter>BOJ\Silver</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\README.md" />
