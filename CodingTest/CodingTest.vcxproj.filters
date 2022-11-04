@@ -34,6 +34,9 @@
     <Filter Include="이코테\04. Sort">
       <UniqueIdentifier>{5a10e42b-16f1-4090-b0af-0a168f2072ce}</UniqueIdentifier>
     </Filter>
+    <Filter Include="이코테\05. BinarySearch">
+      <UniqueIdentifier>{22a733c5-f361-47e9-801f-25d89dabe253}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BOJ\1712.cpp">
@@ -110,6 +113,12 @@
     </ClCompile>
     <ClCompile Include="ECT\6_4.cpp">
       <Filter>이코테\04. Sort</Filter>
+    </ClCompile>
+    <ClCompile Include="ECT\7_2.cpp">
+      <Filter>이코테\05. BinarySearch</Filter>
+    </ClCompile>
+    <ClCompile Include="ECT\7_3.cpp">
+      <Filter>이코테\05. BinarySearch</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
