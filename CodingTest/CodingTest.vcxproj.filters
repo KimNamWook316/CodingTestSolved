@@ -37,6 +37,9 @@
     <Filter Include="이코테\05. BinarySearch">
       <UniqueIdentifier>{22a733c5-f361-47e9-801f-25d89dabe253}</UniqueIdentifier>
     </Filter>
+    <Filter Include="이코테\06. Dynamic Programming">
+      <UniqueIdentifier>{b950a03f-4caa-483e-bc49-d5487cc22695}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BOJ\1712.cpp">
@@ -119,6 +122,15 @@
     </ClCompile>
     <ClCompile Include="ECT\7_3.cpp">
       <Filter>이코테\05. BinarySearch</Filter>
+    </ClCompile>
+    <ClCompile Include="ECT\8_2.cpp">
+      <Filter>이코테\06. Dynamic Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="ECT\8_3.cpp">
+      <Filter>이코테\06. Dynamic Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="ECT\8_4.cpp">
+      <Filter>이코테\06. Dynamic Programming</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
