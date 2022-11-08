@@ -40,6 +40,9 @@
     <Filter Include="이코테\06. Dynamic Programming">
       <UniqueIdentifier>{b950a03f-4caa-483e-bc49-d5487cc22695}</UniqueIdentifier>
     </Filter>
+    <Filter Include="이코테\07. Shortest Path">
+      <UniqueIdentifier>{4c042385-d7e6-4382-bb7f-21d07043fdf1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BOJ\1712.cpp">
@@ -131,6 +134,12 @@
     </ClCompile>
     <ClCompile Include="ECT\8_4.cpp">
       <Filter>이코테\06. Dynamic Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="ECT\8_5.cpp">
+      <Filter>이코테\06. Dynamic Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="ECT\Dijkstra.cpp">
+      <Filter>이코테\07. Shortest Path</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
