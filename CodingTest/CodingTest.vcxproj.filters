@@ -43,6 +43,9 @@
     <Filter Include="이코테\07. Shortest Path">
       <UniqueIdentifier>{4c042385-d7e6-4382-bb7f-21d07043fdf1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="이코테\08. Graph">
+      <UniqueIdentifier>{8d893178-c724-4ff8-80cf-122f435c097c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BOJ\1712.cpp">
@@ -152,6 +155,9 @@
     </ClCompile>
     <ClCompile Include="ECT\9_3.cpp">
       <Filter>이코테\07. Shortest Path</Filter>
+    </ClCompile>
+    <ClCompile Include="ECT\Union_Find.cpp">
+      <Filter>이코테\08. Graph</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
