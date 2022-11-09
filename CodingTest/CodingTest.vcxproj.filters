@@ -144,6 +144,15 @@
     <ClCompile Include="BOJ\2839.cpp">
       <Filter>BOJ\Silver</Filter>
     </ClCompile>
+    <ClCompile Include="ECT\Floyd-Warshall.cpp">
+      <Filter>이코테\07. Shortest Path</Filter>
+    </ClCompile>
+    <ClCompile Include="ECT\9_2.cpp">
+      <Filter>이코테\07. Shortest Path</Filter>
+    </ClCompile>
+    <ClCompile Include="ECT\9_3.cpp">
+      <Filter>이코테\07. Shortest Path</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\README.md" />
