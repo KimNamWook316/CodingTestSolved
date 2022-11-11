@@ -159,6 +159,15 @@
     <ClCompile Include="ECT\Union_Find.cpp">
       <Filter>이코테\08. Graph</Filter>
     </ClCompile>
+    <ClCompile Include="ECT\10_2.cpp">
+      <Filter>이코테\08. Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="ECT\10_3.cpp">
+      <Filter>이코테\08. Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="ECT\10_4.cpp">
+      <Filter>이코테\08. Graph</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\README.md" />
