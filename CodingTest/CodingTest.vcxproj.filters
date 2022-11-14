@@ -168,6 +168,24 @@
     <ClCompile Include="ECT\10_4.cpp">
       <Filter>이코테\08. Graph</Filter>
     </ClCompile>
+    <ClCompile Include="ECT\311.cpp">
+      <Filter>이코테\01. Greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="ECT\312.cpp">
+      <Filter>이코테\01. Greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="ECT\313.cpp">
+      <Filter>이코테\01. Greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="ECT\314_X.cpp">
+      <Filter>이코테\01. Greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="ECT\315.cpp">
+      <Filter>이코테\01. Greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="ECT\316.cpp">
+      <Filter>이코테\01. Greedy</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\README.md" />
