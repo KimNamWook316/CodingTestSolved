@@ -46,6 +46,9 @@
     <Filter Include="이코테\08. Graph">
       <UniqueIdentifier>{8d893178-c724-4ff8-80cf-122f435c097c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Programmers\Level3">
+      <UniqueIdentifier>{45fe8ef4-0c42-414c-b853-c91e737dfe18}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BOJ\1712.cpp">
@@ -185,6 +188,15 @@
     </ClCompile>
     <ClCompile Include="ECT\316.cpp">
       <Filter>이코테\01. Greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ\ECT_Impl_18406.cpp">
+      <Filter>BOJ\Bronze</Filter>
+    </ClCompile>
+    <ClCompile Include="ECT\322.cpp">
+      <Filter>이코테\02. Implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="Programmers\ECT_Impl_CompressString.cpp">
+      <Filter>Programmers\Level2</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
