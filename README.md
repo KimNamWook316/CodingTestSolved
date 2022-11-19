@@ -15,5 +15,6 @@ Coding Test Solved
 #### 프로그래머스
 * ~~Level1~~ Solved
 * Level2
-***
-* Blog : <https://namoo-gamedev.tistory.com/>
+
+#### 레퍼런스 폴더
+문제 풀 때 유용한 알고리즘 모음

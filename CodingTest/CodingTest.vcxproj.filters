@@ -49,6 +49,9 @@
     <Filter Include="Programmers\Level3">
       <UniqueIdentifier>{45fe8ef4-0c42-414c-b853-c91e737dfe18}</UniqueIdentifier>
     </Filter>
+    <Filter Include="레퍼런스">
+      <UniqueIdentifier>{e5b55cf2-1f96-4e99-847a-1439f2726c18}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BOJ\1712.cpp">
@@ -206,6 +209,15 @@
     </ClCompile>
     <ClCompile Include="BOJ\3190.cpp">
       <Filter>BOJ\Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Programmers\Level3\ColumnsAndBeams_NoFin.cpp">
+      <Filter>Programmers\Level3</Filter>
+    </ClCompile>
+    <ClCompile Include="BOJ\15686_NotSolved.cpp">
+      <Filter>BOJ\Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Reference\Perumtation_Combination.cpp">
+      <Filter>레퍼런스</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
