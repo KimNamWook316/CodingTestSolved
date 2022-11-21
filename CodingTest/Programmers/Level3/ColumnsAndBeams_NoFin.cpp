@@ -10,7 +10,7 @@ constexpr int   CONSTRUCT = 1;
 // 기둥, 보 설치 여부
 vector<vector<pair<bool, bool>>> info;
 
-bool isValidIndex(int x, int y)
+bool isValidInfection(int x, int y)
 {
     if (x < 0 || y < 0 || x >= info.size() || y >= info.size())
         return false;
@@ -20,7 +20,7 @@ bool isValidIndex(int x, int y)
 
 bool isValidPillar(int x, int y)
 {
-    if (!isValidIndex(x, y))
+    if (!isValidInfection(x, y))
         return false;
 
     if (0 == y)
@@ -45,7 +45,7 @@ bool isValidPillar(int x, int y)
 
 bool isValidBeam(int x, int y)
 {
-    if (!isValidIndex(x, y))
+    if (!isValidInfection(x, y))
         return false;
 
     // 바로 아래 기둥이 있는 경우
@@ -107,13 +107,13 @@ vector<vector<int>> solution(int n, vector<vector<int>> build_frame)
             {
                 // 바로 위에 기둥이 있는 경우
 				// 좌상단 보나 우상단 보가 없다면 존재할 수 없다.
-                if (isValidIndex(x, y + 1))
+                if (isValidInfection(x, y + 1))
                 {
                     if (info[y + 1][x].first)
                     {
                         bool leftBeam = false;
                         bool rightBeam = false;
-                        if (isValidIndex(y + 1, x - 1))
+                        if (isValidInfection(y + 1, x - 1))
                         {
                             if (info[y + 1][x - 1].second)
                             {
@@ -134,7 +134,7 @@ vector<vector<int>> solution(int n, vector<vector<int>> build_frame)
                         bool valid = false;
 
                         // 삭제할 기둥 오른쪽에 또 기둥이 있거나
-                        if (isValidIndex(x + 1, y))
+                        if (isValidInfection(x + 1, y))
                         {
                             if (info[y][x + 1].first)
                                 valid = true;
@@ -144,10 +144,10 @@ vector<vector<int>> solution(int n, vector<vector<int>> build_frame)
                         bool leftBeam = false;
                         bool rightBeam = false;
 
-                        if (isValidIndex(x - 1, y + 1))
+                        if (isValidInfection(x - 1, y + 1))
                             leftBeam = info[y + 1][x - 1].second;
 
-                        if (isValidIndex(x + 1, y + 1))
+                        if (isValidInfection(x + 1, y + 1))
                             rightBeam = info[y + 1][x + 1].second;
 
                         if (!leftBeam || !rightBeam)
@@ -161,13 +161,13 @@ vector<vector<int>> solution(int n, vector<vector<int>> build_frame)
                 }
 
                 // 좌상단 보 존재하는 경우
-                if (isValidIndex(x - 1, y + 1))
+                if (isValidInfection(x - 1, y + 1))
                 {
                     if (info[y + 1][x - 1].second)
                     {
                         bool valid = false;
                         // 삭제할 기둥 왼쪽에 기둥이 있거나
-                        if (isValidIndex(x - 1, y))
+                        if (isValidInfection(x - 1, y))
                         {
                             valid = info[y][x - 1].first;
                         }
@@ -176,12 +176,12 @@ vector<vector<int>> solution(int n, vector<vector<int>> build_frame)
                         bool leftBeam = false;
                         bool rightBeam = false;
 
-                        if (isValidIndex(x - 2, y + 1))
+                        if (isValidInfection(x - 2, y + 1))
                         {
                             leftBeam = info[y + 1][x - 2].second;
                         }
 
-                        if (isValidIndex(x , y + 1))
+                        if (isValidInfection(x , y + 1))
                         {
 							rightBeam = info[y + 1][x].second;
                         }
@@ -211,10 +211,10 @@ vector<vector<int>> solution(int n, vector<vector<int>> build_frame)
                 bool leftBeam = false;
                 bool rightBeam = false;
 
-                if (isValidIndex(x - 1, y))
+                if (isValidInfection(x - 1, y))
                     leftBeam = info[y][x - 1].second;
 
-                if (isValidIndex(x + 1, y))
+                if (isValidInfection(x + 1, y))
                 {
                     rightPillar = info[y][x + 1].first;
                     rightBeam = info[y][x + 1].second;
@@ -226,7 +226,7 @@ vector<vector<int>> solution(int n, vector<vector<int>> build_frame)
                     bool valid = false;
 
                     // 바로 아래 기둥이 존재하거나
-                    if (isValidIndex(x, y - 1))
+                    if (isValidInfection(x, y - 1))
                     {
                         valid = info[y - 1][x].first;
                     }
@@ -245,7 +245,7 @@ vector<vector<int>> solution(int n, vector<vector<int>> build_frame)
                     bool valid = false;
 
                     // 바로 아래 기둥이 존재하거나
-					if (isValidIndex(x + 1, y - 1))
+					if (isValidInfection(x + 1, y - 1))
 					{
                         valid = info[y - 1][x + 1].first;
 					}
@@ -264,7 +264,7 @@ vector<vector<int>> solution(int n, vector<vector<int>> build_frame)
                     bool valid = false;
 
                     // 왼쪽 아래 기둥이 존재하는 경우
-                    if (isValidIndex(x - 1, y - 1))
+                    if (isValidInfection(x - 1, y - 1))
                     {
                         valid = info[y - 1][x - 1].first;
                     }
@@ -283,11 +283,11 @@ vector<vector<int>> solution(int n, vector<vector<int>> build_frame)
                     bool valid = false;
 
                     // 오른쪽 보 기준 왼쪽 기둥이 존재하는 경우
-                    if (isValidIndex(x + 1, y - 1))
+                    if (isValidInfection(x + 1, y - 1))
                         valid = info[y - 1][x + 1].first;
 
                     // 오른쪽 보 기준 오른쪽 기둥이 존재하는 경우
-                    if (isValidIndex(x + 2, y - 1))
+                    if (isValidInfection(x + 2, y - 1))
                         valid = info[y - 1][x + 1].first;
 
                     if (!valid)
