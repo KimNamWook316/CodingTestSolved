@@ -228,6 +228,9 @@
     <ClCompile Include="BOJ\18405.cpp">
       <Filter>BOJ\Gold</Filter>
     </ClCompile>
+    <ClCompile Include="Programmers\Level2\BraceConvert.cpp">
+      <Filter>Programmers\Level2</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\README.md" />
