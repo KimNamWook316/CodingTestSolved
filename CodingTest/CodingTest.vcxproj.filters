@@ -237,6 +237,9 @@
     <ClCompile Include="BOJ\18428.cpp">
       <Filter>BOJ\Gold</Filter>
     </ClCompile>
+    <ClCompile Include="BOJ\2747.cpp">
+      <Filter>BOJ\Bronze</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\README.md" />
