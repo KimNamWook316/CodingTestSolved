@@ -270,6 +270,9 @@
     <ClCompile Include="ECT\Q27.cpp">
       <Filter>이코테\05. BinarySearch</Filter>
     </ClCompile>
+    <ClCompile Include="ECT\Q28.cpp">
+      <Filter>이코테\05. BinarySearch</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\README.md" />
